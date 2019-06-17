@@ -1,0 +1,9 @@
+export_options({
+  method: "ad-hoc"
+})
+silent(true)
+clean(true)
+include_bitcode(false)
+include_symbols(false)
+export_xcargs("-allowProvisioningUpdates")
+
